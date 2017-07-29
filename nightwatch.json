@@ -1,0 +1,38 @@
+{
+    "src_folders": [
+        "tests"
+    ],
+    "selenium": {
+        "start_process": false,
+        "host": "40.68.198.178",
+        "port": 4444       
+    },
+    "test_settings": {
+        "default": {
+            "screenshots": {
+                "enabled": true,
+                "path": "screenshots/selenium"
+              },
+            "selenium_port": 4444,
+            "selenium_host": "52.178.105.22",
+            "desiredCapabilities": {
+                "browserName": "chrome",
+                "javascriptEnabled": true,
+                "acceptSslCerts": true
+            }
+        },
+        "local": {
+            "screenshots": {
+                "enabled": true,
+                "path": "screenshots/selenium"
+              },
+            "selenium_port": 32771,
+            "selenium_host": "localhost",
+            "desiredCapabilities": {
+                "browserName": "chrome",
+                "javascriptEnabled": true,
+                "acceptSslCerts": true
+            }
+        }
+    }
+}
